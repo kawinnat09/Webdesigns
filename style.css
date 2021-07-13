@@ -1,33 +1,17 @@
-body{
-    background-color: rgba(255, 255, 255, 0.185);
-}
-h1{
-color: blueviolet;
-}
-h2{
-color: rgb(17, 0, 255);
-}
-.text1{
-font-style: italic;
-}
-.text2{
-color: red;
-font-weight: bold;
-font-style: italic;
-}
-.text3{
-color: sandybrown;
-}
-.text4{
-color: slateblue;
-}
-li{
-font-weight: bold;
-}
-dt{
-color: steelblue;
+.my-style{
+    background-color: royalblue;
+    width: 100%;
+    height: 200px;
+    animation-name: animate-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
-hr{
-    border:2px solid red;
+@keyframes animate-color{
+    from{
+        background-color: royalblue;
+    }
+    to{
+        background-color: salmon;
+    }
 }
