@@ -1,0 +1,17 @@
+.my-style{
+    background-color: royalblue;
+    width: 100%;
+    height: 200px;
+    animation-name: animate-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate-color{
+    from{
+        background-color: royalblue;
+    }
+    to{
+        background-color: salmon;
+    }
+}
